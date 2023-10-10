@@ -1,4 +1,5 @@
 const puppeteer = require("puppeteer");
+const { before } = require('mocha');
 
 describe("Popover Tests", () => {
   let browser;
